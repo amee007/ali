@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body {
+    background: url(https://i.pinimg.com/originals/bd/cb/b5/bdcbb5d08a6302575113708f8fa57120.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: white;
+    width: auto;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important;
+}
+
+#header {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#time {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#bottom-content {
+    text-align: center;
+}
+
+#login-center {
+    text-align: center;
+}
+
+snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+.snowflake:hover {
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important;
+}
+
+.heading {
+    margin:0;
+    padding:11px 5px;
+    font-size:small;
+    background:url(../../flambon.xtgem.com/files/play/bs4.png)center right no-repeat
+}
+
+.description {
+    margin:0;
+    padding:11px 5px;
+    font-size:small;
+}
+
+#navigation {
+    background:#2192ad;
+    margin:0;
+    padding:0;
+    text-align:center;
+    border-top:1px solid #43b4cf
+}
+
+#navigation span {
+    width:32%;
+    display:inline-block;
+    padding:8px 0;
+    text-align:center;
+    margin:0;
+    border-right:1px solid #43b4cf;
+}
+
+#navigation span+span {
+    border-left:1px solid #00708b
+}
+
+#navigation span+span+span {
+    border-right:none
+}
+
+#navigation span+span+span a {
+    content:"Down"
+}
+
+#top-content {
+    text-align:center;
+    margin:0;
+    padding:6px 0;
+}
+    
+#search-form [type=text] { width:60%; margin:1px; padding:4px; background:silver; color:red; font-family: 'Kaushan Script', cursive; cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important; } #search-form [type=submit] { width: auto; margin:1px; padding:4px; background:#cf43bc; color:red; border: 1px solid #808080; font-family: 'Kaushan Script', cursive; cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important; }
+
+.post:first-child {
+    margin:7px;
+    padding:0;
+}
+
+.post:first-child 
+.post-meta {
+    margin:0;
+    padding:7px 5px;
+    color: #ccc;
+}
+
+.post-meta 
+.title,
+.categories {
+    margin:0;
+    padding:2px 0;
+    font-size:small
+}
+
+.post:first-child 
+.post-content {
+    margin: -30 0 0 0;
+}
+
+.post:first-child 
+.post-meta2 {
+    margin:0;
+    padding: 20px 5px;
+}
+
+.post:nth-child(2):before {
+    content:"Last Post";
+    display:block;
+    padding:8px 5px;
+    background:url(../../flambon.xtgem.com/files/play/bs18.png)right center no-repeat,#2192ad;
+    border:1px solid #00708b;
+    border-width:1px 0;
+    color:#eee;
+    text-shadow:#222 1px 1px 1px
+}
+
+.post:nth-child(2) {
+    background:#eaeaea;
+    margin:0;
+    padding:0;
+    border-bottom:1px solid #d3d3d3
+}
+
+.post+.post 
+.post-content {
+    content:none
+}
+
+.post:nth-child(2) 
+.post-meta {
+    margin:0;
+    padding:15px 5px;
+    border-top:4px solid #ccc;
+    color:#888
+}
+
+.post+
+.post 
+.post-meta2 {
+    display:none
+}
+
+.post+
+.post+
+.post 
+.post-meta {
+    margin:0;
+    padding:15px 5px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #d3d3d3;
+    color:#888
+}
+
+.post+
+.post 
+.post-meta 
+.title:before {
+    content:url(../../flambon.xtgem.com/files/play/bs15.png);
+    float:left;margin-right:5px
+}
+
+.post+
+.post+
+.post 
+.post-meta 
+.title:before {
+    content:url(../../flambon.xtgem.com/files/play/bs14.png);
+    float:left;
+    margin-right:5px
+}
+
+.post+.post+.post+.post 
+.post-meta .title:before {
+    content:url(../../flambon.xtgem.com/files/play/bs13.png);
+    float:left;
+    margin-right:5px
+}
+
+.post+.post+.post+.post+.post
+.post-meta .title:before {
+    content:url(../../flambon.xtgem.com/files/play/bs16.png);
+    float:left;
+    margin-right:5px
+}
+
+.thumbnail {
+    border:1px solid #666 !important;
+    margin:2px 2px 0 0 !important;
+    width:50px !important;
+    height:60px !important;
+    padding:1px !important
+}
+
+#pagination-links {
+    text-align:center;
+    margin:0;
+    padding:4px 3px 6px 3px;
+    border-top:1px solid #fff;
+    background:#eaeaea;
+}
+
+#pagination-links span {
+    padding:4px;
+    display:inline-block;
+    background:#2192ad;
+    color:#fff;
+    border:1px solid #00708b
+}
+
+#pagination-links a {
+    padding:4px;
+    display:inline-block;
+    margin-top:2px;
+    text-decoration:none;
+    background:#444;
+    border:1px solid #222;
+    color:#eee
+}
+
+#blogroll_list h3,
+#blogroll h3,
+#navigation-menu h3 {
+    margin:0;
+    padding:8px 5px;
+    color:#eee;
+    text-shadow:#222 1px 1px 1px;
+    border-width:1px 0
+}
+
+#navigation-menu ul,
+#blogroll ul {
+    margin:0;
+    padding:3px 0
+}
+
+#navigation-menu li {
+    list-style:none;
+    background: #cf43bc;
+    padding:6px
+}
+
+#navigation-menu li:after {
+    content:"";
+    display:block;
+    padding:10px;
+    background:url(../../flambon.xtgem.com/files/play/bs23.png)bottom left no-repeat;
+    margin:-20px 0 0 -15px
+}
+
+.post:first-child 
+.post-meta2 span {
+    content:"People"
+}
+
+#footer {
+    text-align:center;
+    margin:0;
+    padding:5px;
+    color:#eee;
+}
+
+#footer:after {
+    content: "";
+    text-align:center;
+    display:block;
+    color:#cf43bc;
+    padding:0px;
+}
+
+#footer img  {
+    display:none
+}
+
+.post-single 
+.post-meta {
+    background:#eaeaea;
+    margin:0;
+    padding:7px 5px;
+    color:#888;
+    border-bottom:1px solid #d3d3d3
+}
+
+.post-single 
+.post-meta 
+.title:before {
+    content:url(../../flambon.xtgem.com/files/play/bs15.png);
+    float:left;
+    margin-right:5px
+}
+
+.post-single 
+.post-content {
+    border-top:1px solid #fff;
+    padding:7px 5px;
+    margin:0
+}
+
+#comments li {
+    list-style:none;
+    margin:0;
+    padding:8px 5px;
+    background:#444;
+    border:1px solid #222;
+    border-width:1px 0;
+    text-align:center;
+    color:#eee
+}
+
+.post-content h3,
+.post-content h5 {
+    background:#ddd;
+    margin:0;
+    padding:3px;
+    text-shadow:none;
+    border:1px solid #ccc;
+    text-align:center;
+    color:#222
+}
+
+.post-content h1,
+.post-content h2 {
+    background:#ddd;
+    margin:0;
+    padding:3px;
+    text-shadow:none;
+    border:1px solid #ccc;
+    text-align:center;
+    color:#222;
+    font-size:small
+}
+
+.post-content h4 {
+    margin:0;
+    background:#ddd;
+    border:1px solid #ccc;
+    color:#222;
+    padding:4px;
+    text-align:center;
+}
+
+.post-content h4 a {
+    display:inline-table;
+    width:40%;
+    text-shadow:none
+}
+
+.post-content h6 {
+    background:#333;
+    padding:6px 5px;
+    color:#eee;
+    border-bottom:3px solid #555;
+    margin:0;
+    text-shadow:none
+}
+
+.post-content ol {
+    margin:0;
+    padding:0;
+    background:#ddd
+}
+
+.post-content li {
+    list-style:none;
+    margin:0;
+    padding:5px;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #bbb
+}
+
+body img {
+    max-width:80%;
+    max-height:80%;
+}
+
+a {
+    color: red;
+    text-shadow: #000 1px 1px 1px;
+    text-decoration: none;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important;
+}
+
+#footer a,
+.heading a,
+#navigation-menu h3 a,
+#comments h3 a,
+#navigation a,
+#following-list h4 a,
+#blogroll_list h3 a {
+    color:#eee;
+    text-shadow:#222 1px 1px 1px;
+}
+
+.post-single 
+.post-meta 
+.title,
+#following-list li a,
+#category-bottom li a,
+#recent-posts-list li a {
+    color:#444;
+    text-shadow:#fff 1px 1px 1px;
+}
+
+.post:first-child 
+.post-content a {
+    color:#444;
+    text-shadow:none
+}
+
+#footer span {
+    background:transparent !important;
+    border:none !important;
+    color:#eee !important
+}
+
+.date {
+    display:none;
+}
+
+.post-single 
+.post-content textarea {
+    width:70px;
+    height:70px;
+    padding:0;
+    margin:0;
+}
+
+.post-content,
+.comment-content {
+    word-wrap:break-word;
+}
+
+#navigation-menu li h3,
+#navigation-menu li h5 {
+    margin:-6px;
+    padding:8px 6px;
+    border:none;
+    background:#2192ad;
+    color:#eee;
+}
+
+#pagination-links a {
+    text-shadow:none;
+}
+
+.jarvis {
+    width: 400px;
+    -webkit-animation: antispin 4s linear infinite;
+    -moz-animation: antispin 4s linear infinite;animation: antispin 4s linear infinite;
+}
+
+.jarvis-inner {
+    width: 285px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    margin-top: -330px;
+    margin-left: 60px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes antispin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes antispin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes antispin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+.css img{
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    margin: 0 10px 5px 0;
+}
+
+.css img:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow:0px 0px 30px gray;
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray;
+    opacity: 1;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important;
+}
